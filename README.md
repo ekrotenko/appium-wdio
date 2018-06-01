@@ -6,7 +6,7 @@ Wdio+Appium Test task Project
 0) Ensure that all necessary software is instaleld:
 * NPM is installed on your machine. NPM is installed with Node.js. You can download Node.js installer [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 Type `npm -v` in console(cmd | PowerShell | Terminal) to verify successful installation. 
-* Java Development Kit is installed on your machine. You can download JDK installer [here](https://developer.android.com/studio/#downloads)
+* Java Development Kit is installed on your machine. You can download JDK installer [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Android SDK is installed on your machine.  You can download Android SDK installer [here](https://developer.android.com/studio/#downloads)
 * Setup drivers for test device or setup Android Virtual Device on your machine
 

@@ -1,17 +1,5 @@
 const cla = require('command-line-args');
 
-const caps = {
-  automationName: 'UIAutomator2',
-  //useJSONSource: true,
-  maxInstances: 1,
-  appiumVersion: '1.7.2',
-  deviceName: 'Pixel XL API 27',
-  platformVersion: '8.1.0',
-  platformName: 'android',
-  app: './apps/simplecalculator.apk',
-  avd: 'Pixel_XL_API_27'
-};
-
 const avd = {
   name: 'avd',
   description: `Id of the AVD`,
