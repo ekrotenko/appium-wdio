@@ -31,7 +31,7 @@
     "lint:fix": "./node_modules/.bin/eslint ./*/**.js --fix",
     "lint": "./node_modules/.bin/eslint ./*/**.js",
     "test": "./node_modules/.bin/wdio wdio.conf.js --port 4723",
-    "posttest": "allure generate allure-results && allure open || true"
+    "posttest": "allure generate allure-results --clean && allure open || true"
   },
   "repository": {
     "type": "git",

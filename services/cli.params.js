@@ -5,6 +5,7 @@ const avd = {
   description: `Id of the AVD`,
   typeLabel: 'String',
   type: String,
+  defaultValue: 'Pixel_XL_API_27'
 };
 const deviceName = {
   name: 'deviceName',
@@ -12,6 +13,7 @@ const deviceName = {
   description: `Name of the device where specs are executed`,
   typeLabel: 'String',
   type: String,
+  defaultValue: '8.1.0'
 };
 const platformVersion = {
   name: 'platformVersion',
@@ -19,6 +21,7 @@ const platformVersion = {
   description: `Version of the AVD configuration platform`,
   typeLabel: 'String',
   type: String,
+  defaultValue: 'Pixel XL API 27'
 };
 
 const optionList = [avd, deviceName, platformVersion];

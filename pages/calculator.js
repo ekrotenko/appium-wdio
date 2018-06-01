@@ -38,14 +38,14 @@ class Calculator {
 
   inputValue(value) {
     `${value}`.split('').forEach(digit => {
-      this.clickDigit(digit);
+      this.clickButton(digit);
     });
 
     return this;
   }
 
-  clickDigit(digit) {
-    const digitButtonSelector = by.resourceId(`${resourceIdNamespace}button${digit}`);
+  clickButton(buttonText) {
+    const digitButtonSelector = by.text(buttonText);
     $(digitButtonSelector).click();
   }
 

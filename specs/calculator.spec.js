@@ -9,7 +9,7 @@ describe('Test main calculator operators', () => {
 
   afterEach(() => calculator.clear());
 
-  fit(`should return sum of ${data.firstOperand} and ${data.secondOperand}`, () => {
+  it(`should return sum of ${data.firstOperand} and ${data.secondOperand}`, () => {
     const actualResult = calculator
       .inputValue(data.firstOperand)
       .add()
