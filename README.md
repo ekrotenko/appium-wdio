@@ -30,4 +30,4 @@ npm test --avd configured_avd_id -n name_of_device -p android_platform_version
 ## Viewing report
 After test run completed you can view html test report with screenshots which is located in allure-report folder
 
-Happy testing!
+###Happy testing!
