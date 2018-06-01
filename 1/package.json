@@ -1,0 +1,46 @@
+{
+  "name": "appium-wdio-test-task",
+  "version": "0.0.1",
+  "description": "Test task of calculator using appium & webdriverio",
+  "main": "index.js",
+  "dependencies": {
+    "appium": "^1.8.1",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "eslint": "^4.19.1",
+    "faker": "^4.1.0",
+    "jasmine": "^3.1.0",
+    "parse-decimal-number": "^1.0.0",
+    "wdio-allure-reporter": "^0.6.2",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "appium-doctor": "^1.4.3",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "husky": "^0.14.3",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-jasmine-framework": "^0.3.4"
+  },
+  "scripts": {
+    "precommit": "npm run lint",
+    "appium-doctor": "./node_modules/.bin/appium-doctor",
+    "help": "node ./services/help.js",
+    "lint:fix": "./node_modules/.bin/eslint ./*/**.js --fix",
+    "lint": "./node_modules/.bin/eslint ./*/**.js",
+    "test": "./node_modules/.bin/wdio wdio.conf.js --port 4723",
+    "posttest": "allure generate allure-results && allure open || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekrotenko/appium-wdio.git"
+  },
+  "author": "Eugene Krotenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekrotenko/appium-wdio/issues"
+  },
+  "homepage": "https://github.com/ekrotenko/appium-wdio#readme"
+}
