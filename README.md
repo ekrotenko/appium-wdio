@@ -24,8 +24,9 @@ npm run help
 
 Execute test run following command in terminal:
 ```text
-npm test --avd configured_avd_id -n name_of_device -p android_platform_version
+npm test
 ```
+You can pass custom `avd`, `platformVersion`, `deviceName` as cli parameters. See help of CLI params
 
 ## Viewing report
 After test run completed you can view html test report with screenshots which is located in allure-report folder
